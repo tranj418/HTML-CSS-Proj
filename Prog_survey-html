@@ -6,6 +6,9 @@
     <HEAD>
 
 
+        <link rel="stylesheet" type="text/css" 
+        href="prog_survey.css">
+
         <h1><center>Programmer's Survey</center></h1>
 
 
@@ -15,28 +18,33 @@
         <form>
             <label>First Name:</label>
             <br>
-            <input type="text">
+            <input type="text" class="entry">
             <br><br>
 
             <label>Last Name:</label>
             <br>
-            <input type="text">
+            <input type="text" class="entry">
             <br><br>
 
             <label>Last Name:</label>
             <br>
-            <input type="text">
+            <input type="text" class="entry">
+            <br><br>
+
+            <label>Email:</label>
+            <br>
+            <input type="text" class="entry">
             <br><br>
 
             <label>Age:</label>
             <br>
-            <input type="number">
+            <input type="number" id="age">
             <br><br>
 
             <label>Current Occupation</label>
             <br>
             <select id="occupations">
-                <option value="Student">Student</option>
+                <option value="Student" id="occupations">Student</option>
                 <option value="Front-End_Dev">Front End Developer</option>
                 <option value="Back-End_Dev">Back End Developer</option>
                 <option value="Full-stack_Dev">Full Stack Developer</option>
@@ -58,60 +66,66 @@
 
             <input type="Radio" name="radAnswer" id="3">
             <label for="3">Maybe</label>
+            <br><br>
 
 
-            <p>Language and Frameworks you
+            <label>Language and Frameworks you
                 are familiar with <span style="font-size:13px;">(Select all that apply)</span>
-            </p>
+            </label>
+            <br><br>
 
-            <input type="checkbox">
-            <label>Python</label>
+            <input type="checkbox" id="python">
+            <label for="python">Python</label>
             <br>
 
-            <input type="checkbox">
-            <label>C#</label>
+            <input type="checkbox" id="C#">
+            <label for="C#">C#</label>
             <br>
 
-            <input type="checkbox">
-            <label>C++</label>
+            <input type="checkbox" id="C++">
+            <label for="C++">C++</label>
             <br>
 
-            <input type="checkbox">
-            <label>Javascript</label>
+            <input type="checkbox" id="js">
+            <label for="js">Javascript</label>
             <br>
 
-            <input type="checkbox">
-            <label>Java</label>
+            <input type="checkbox" id="java">
+            <label for="java">Java</label>
             <br>
 
-            <input type="checkbox">
-            <label>Ruby</label>
+            <input type="checkbox" id="ruby">
+            <label for="ruby">Ruby</label>
             <br>
 
-            <input type="checkbox">
-            <label>Kotlin</label>
+            <input type="checkbox" id="kotlin">
+            <label for="kotlin">Kotlin</label>
             <br>
 
-            <input type="checkbox">
-            <label>React</label>
+            <input type="checkbox" id="react">
+            <label for="react">React</label>
             <br>
 
-            <input type="checkbox">
-            <label>Angular</label>
+            <input type="checkbox" id="angular">
+            <label for="angular">Angular</label>
             <br>
 
-            <input type="checkbox">
-            <label>Django</label>
+            <input type="checkbox" id="dj">
+            <label for="dj">Django</label>
             <br>
 
-            <input type="checkbox">
-            <label>Flask</label>
+            <input type="checkbox" id="flask">
+            <label for="flask">Flask</label>
             <br><br>
             
             <label for="prog_survey">Any comments or recommendations?</label>
             <br><br>
             <textarea id="pro_survey" name="prog_survey"
                         rows="5" cols="50"></textarea>
+            <br><br>
+            
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
 
 
         </form>
