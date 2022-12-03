@@ -1,0 +1,33 @@
+html{
+    background-color:#31f760;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/*For the entry box in the top section*/
+.entry{
+    width: 300px;
+}
+
+/*Shortening the entry element for the age section*/
+#age{
+    width: 40px;
+}
+
+button{
+    font-size: large;
+}
+
+button:hover{
+    background-color:#f7f416;
+}
+
