@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+
+    <HEAD>
+
+
+        <h1><center>Programmer's Survey</center></h1>
+
+
+    </HEAD>
+    <BODY>
+
+        <form>
+            <label>First Name:</label>
+            <br>
+            <input type="text">
+            <br><br>
+
+            <label>Last Name:</label>
+            <br>
+            <input type="text">
+            <br><br>
+
+            <label>Last Name:</label>
+            <br>
+            <input type="text">
+            <br><br>
+
+            <label>Age:</label>
+            <br>
+            <input type="number">
+            <br><br>
+
+            <label>Current Occupation</label>
+            <br>
+            <select id="occupations">
+                <option value="Student">Student</option>
+                <option value="Front-End_Dev">Front End Developer</option>
+                <option value="Back-End_Dev">Back End Developer</option>
+                <option value="Full-stack_Dev">Full Stack Developer</option>
+            </select>
+            <br><br>
+
+            <label>Would you recommend coding as
+                a skill to learn?
+            </label>
+            <br><br>
+
+            <input type="Radio" name="radAnswer" id="1">
+            <label for="1">Yes</label>
+            <br>
+
+            <input type="Radio" name="radAnswer" id="2">
+            <label for="2">No</label>
+            <br>
+
+            <input type="Radio" name="radAnswer" id="3">
+            <label for="3">Maybe</label>
+
+
+            <p>Language and Frameworks you
+                are familiar with <span style="font-size:13px;">(Select all that apply)</span>
+            </p>
+
+            <input type="checkbox">
+            <label>Python</label>
+            <br>
+
+            <input type="checkbox">
+            <label>C#</label>
+            <br>
+
+            <input type="checkbox">
+            <label>C++</label>
+            <br>
+
+            <input type="checkbox">
+            <label>Javascript</label>
+            <br>
+
+            <input type="checkbox">
+            <label>Java</label>
+            <br>
+
+            <input type="checkbox">
+            <label>Ruby</label>
+            <br>
+
+            <input type="checkbox">
+            <label>Kotlin</label>
+            <br>
+
+            <input type="checkbox">
+            <label>React</label>
+            <br>
+
+            <input type="checkbox">
+            <label>Angular</label>
+            <br>
+
+            <input type="checkbox">
+            <label>Django</label>
+            <br>
+
+            <input type="checkbox">
+            <label>Flask</label>
+            <br><br>
+            
+            <label for="prog_survey">Any comments or recommendations?</label>
+            <br><br>
+            <textarea id="pro_survey" name="prog_survey"
+                        rows="5" cols="50"></textarea>
+
+
+        </form>
+
+
+
+
+
+    </BODY>
+
+
+
+</HTML>
